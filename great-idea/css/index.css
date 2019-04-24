@@ -154,3 +154,50 @@ header .header-box h1 {
 footer {
 	text-align: center;
 }
+
+.services-header {
+	flex-flow: column;
+	padding-top: 20px;
+}
+
+.services-header-img {
+	margin-bottom: 20px;
+}
+
+.services-offered {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	border-bottom: 1px solid black;
+}
+
+.service-box {
+	background: lightgrey;
+	width: 47%;
+	border: 1px solid black;
+	margin: 20px 0 20px 0;
+	padding: 10px;
+}
+
+.service-box button {
+	width: 100px;
+	margin: 10px 0 10px 0;
+}
+
+.bottom-services {
+	margin: 30px 0 30px 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.service-facts {
+	width: 45%;
+}
+
+ul {
+	list-style-type: disc;
+	line-height: 2;
+	list-style-position: inside;
+}
